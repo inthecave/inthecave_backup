@@ -1,0 +1,89 @@
+html { 
+  background-color: #333;
+  background: url(../images/fog-on-trail_blur.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  padding-top: 120px;
+  background-color: transparent;
+}
+
+.navbar {
+	background-color: rgba(255,255,255,0.0);
+	border-bottom: 0;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+	margin-top: 30px;
+}
+
+.navbar .container {
+	max-width: 800px;
+}
+
+.navbar-default .navbar-brand {
+	color: #FFF;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #FFF;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #FFF;
+	color: rgba(255,255,255,.75);
+	border-bottom: 2px solid transparent;
+	font-weight: bold;
+	font-size: 16px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navbar-default .navbar-nav li {
+	margin-left: 20px;
+}
+
+.navbar-default .navbar-nav .active a:hover {
+	background-color: transparent;
+	color: #FFF;
+}
+
+.navbar-default .navbar-nav .active a {
+	color: #FFF;
+	border-bottom-color: #FFF;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color: #FFF;
+}
+
+.navbar-brand {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.1;
+}
+
+h1.page-title {
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+	color: #FFF;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: rgba(255,255,255,0.0)
+}
+
+.footer p {
+	text-align: center;
+}
