@@ -142,6 +142,19 @@ p.text-muted {
 	text-align: center;
 }
 
+#myTabs {
+	background-color: rgba(255,255,255,.5);
+}
+
+.tab-content {
+	background-color: rgba(255,255,255,.5);
+}
+
+.no-pad {
+	padding: 0px;
+}
+
+
 /* Tab CSS for In-page navigation */
 
 .tabs-below > .nav-tabs,
@@ -155,11 +168,11 @@ p.text-muted {
   display: none;
   padding-right: 25px;
 }
-
+/*
 .tab-content {
 	margin-left: 219px;
 }
-
+*/
 .tab-content > .active,
 .pill-content > .active {
   display: block;
