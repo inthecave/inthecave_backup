@@ -11,8 +11,7 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
-  padding-top: 120px;
+  margin-bottom: 40px;
   background-color: transparent;
 }
 
@@ -70,8 +69,63 @@ body {
 	line-height: 1.1;
 }
 
+ul.nav.navbar-nav.navbar-right {
+	padding-top: 4px;
+}
+
+.title-buffer {
+	margin-top: 80px;
+}
+
 h1.page-title {
+	text-shadow: 0 1px 3px rgba(255,255,255,.5);
+	color: #333;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+h3 {
 	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+	color: #FFF;
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+h5 {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+p.text-muted {
+	color: #999;
+	margin-top: 10px;
+}
+
+.content {
+	background-color: rgba(255,255,255,.50);
+	border-radius: 10px;
+	padding: 0px;
+}
+
+.content-title {
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 10px;
+	font-style: italic;
+	text-align: center;
+	color: #333;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.tab-content a {
 	color: #FFF;
 }
 
@@ -80,10 +134,73 @@ h1.page-title {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: rgba(255,255,255,0.0)
+  height: 40px;
+  background-color: rgba(255,255,255,0.0);
 }
 
 .footer p {
 	text-align: center;
+}
+
+/* Tab CSS for In-page navigation */
+
+.tabs-below > .nav-tabs,
+.tabs-right > .nav-tabs,
+.tabs-left > .nav-tabs {
+  border-bottom: 0;
+}
+
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+  display: none;
+  padding-right: 25px;
+}
+
+.tab-content {
+	margin-left: 219px;
+}
+
+.tab-content > .active,
+.pill-content > .active {
+  display: block;
+}
+
+.tabs-left > .nav-tabs > li,
+.tabs-right > .nav-tabs > li {
+  float: none;
+}
+
+.tabs-left > .nav-tabs > li > a,
+.tabs-right > .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+}
+
+.tabs-left > .nav-tabs {
+  float: left;
+  margin-right: 19px;
+  border-right: 1px solid #ddd;
+}
+
+.tabs-left > .nav-tabs > li > a {
+  color: #FFF;
+  margin-right: -1px;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
+}
+
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+  border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+  color: #333;
+}
+
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus {
+  border-color: #ddd transparent #ddd #ddd;
+  *border-right-color: #ffffff;
+  color: #333;
 }
