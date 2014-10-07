@@ -103,11 +103,6 @@ h5 {
 	font-weight: bold;
 }
 
-.h5 {
-	text-align: center;
-	font-weight: bold;
-}
-
 p.text-muted {
 	color: #999;
 	margin-top: 10px;
@@ -130,27 +125,15 @@ p.text-muted {
 	text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
-hr.bold {
-	border-top: 3px solid #666;
-	margin-bottom: 0px;
-}
-
-hr.short {
-	width: 50%;
-}
-
-p.justified {
-	text-align: justify;
-}
-
 .tab-content a {
 	color: #FFF;
 }
 
 .tab-pane {
 	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 
 .footer {
@@ -168,54 +151,94 @@ p.justified {
 
 #myTabs {
 	background-color: transparent;
-	border: none;
 }
 
 #myTabs a {
-	color: rgba(255,255,255,.8);
-	border-radius: 0;
-	border: none;
-	font-weight: bold;
+	color: #FFF;
 }
 
 #myTabs a:hover {
 	background-color: transparent;
 	color: white;
-	border: none;
-	border-right: 3px solid #FFF;
 }
 
 #myTabs li.active {
-	background-color: transaprent;
-	border: none;
+	background-color: rgba(255,255,255,.5);
 }
 
 #myTabs li.active a {
 	background-color: transparent;
-	border: none;
-	border-right: 5px solid #FFF;
-	color: #FFF;
 }
 
 .tab-content {
 	background-color: rgba(255,255,255,.5);
 	min-height: 400px;
-	border-radius: 10px;
 }
 
-.arrow-right {
-	width: 0;
-	height: 0;
-	border-top: 30px solid transparent;
-	border-bottom: 30px solid transparent;
-	border-left: 30px solid black;
+.no-pad {
+	padding: 0px;
 }
 
-.arrow-down {
-	width: 0;
-	height: 0;
-	border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
-	border-top: 30px solid #666;
-	margin: 0 auto;
+
+/* Tab CSS for In-page navigation */
+
+.tabs-below > .nav-tabs,
+.tabs-right > .nav-tabs,
+.tabs-left > .nav-tabs {
+  border-bottom: 0;
+}
+
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+  display: none;
+  padding-right: 25px;
+}
+/*
+.tab-content {
+	margin-left: 219px;
+}
+*/
+.tab-content > .active,
+.pill-content > .active {
+  display: block;
+}
+
+.tabs-left > .nav-tabs > li,
+.tabs-right > .nav-tabs > li {
+  float: none;
+}
+
+.tabs-left > .nav-tabs > li > a,
+.tabs-right > .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+}
+
+.tabs-left > .nav-tabs {
+  float: left;
+  margin-right: 19px;
+  border-right: 1px solid #ddd;
+}
+
+.tabs-left > .nav-tabs > li > a {
+  color: #FFF;
+  margin-right: -1px;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
+}
+
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+  border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+  color: #333;
+}
+
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus {
+  border-color: #ddd transparent #ddd #ddd;
+  *border-right-color: #ffffff;
+  color: #333;
 }
