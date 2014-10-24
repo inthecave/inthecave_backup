@@ -1,0 +1,221 @@
+html { 
+  background-color: #333;
+  background: url(../images/fog-on-trail_blur.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 40px;
+  background-color: transparent;
+}
+
+.navbar {
+	background-color: rgba(255,255,255,0.0);
+	border-bottom: 0;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+	margin-top: 30px;
+}
+
+.navbar .container {
+	max-width: 800px;
+}
+
+.navbar-default .navbar-brand {
+	color: #FFF;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #FFF;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #FFF;
+	color: rgba(255,255,255,.75);
+	border-bottom: 2px solid transparent;
+	font-weight: bold;
+	font-size: 16px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navbar-default .navbar-nav li {
+	margin-left: 20px;
+}
+
+.navbar-default .navbar-nav .active a:hover {
+	background-color: transparent;
+	color: #FFF;
+}
+
+.navbar-default .navbar-nav .active a {
+	color: #FFF;
+	border-bottom-color: #FFF;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color: #FFF;
+}
+
+.navbar-brand {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.1;
+}
+
+ul.nav.navbar-nav.navbar-right {
+	padding-top: 4px;
+}
+
+.title-buffer {
+	margin-top: 80px;
+}
+
+h1.page-title {
+	text-shadow: 0 1px 3px rgba(255,255,255,.5);
+	color: #333;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+h3 {
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+	color: #FFF;
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+h5 {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.h5 {
+	text-align: center;
+	font-weight: bold;
+}
+
+p.text-muted {
+	color: #999;
+	margin-top: 10px;
+}
+
+.content {
+	background-color: rgba(255,255,255,.50);
+	border-radius: 10px;
+	padding: 0px;
+}
+
+.content-title {
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 10px;
+	font-style: italic;
+	text-align: center;
+	color: #333;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+hr.bold {
+	border-top: 3px solid #666;
+	margin-bottom: 0px;
+}
+
+hr.short {
+	width: 50%;
+}
+
+p.justified {
+	text-align: justify;
+}
+
+.tab-content a {
+	color: #FFF;
+}
+
+.tab-pane {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: rgba(255,255,255,0.0);
+}
+
+.footer p {
+	text-align: center;
+}
+
+#myTabs {
+	background-color: transparent;
+	border: none;
+}
+
+#myTabs a {
+	color: rgba(255,255,255,.8);
+	border-radius: 0;
+	border: none;
+	font-weight: bold;
+}
+
+#myTabs a:hover {
+	background-color: transparent;
+	color: white;
+	border: none;
+	border-right: 3px solid #FFF;
+}
+
+#myTabs li.active {
+	background-color: transaprent;
+	border: none;
+}
+
+#myTabs li.active a {
+	background-color: transparent;
+	border: none;
+	border-right: 5px solid #FFF;
+	color: #FFF;
+}
+
+.tab-content {
+	background-color: rgba(255,255,255,.5);
+	min-height: 400px;
+	border-radius: 10px;
+}
+
+.arrow-right {
+	width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	border-left: 30px solid black;
+}
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 30px solid #666;
+	margin: 0 auto;
+}
